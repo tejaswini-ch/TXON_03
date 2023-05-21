@@ -1,0 +1,94 @@
+body{
+    background-color: #EEEEEE;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    display:flex;
+    flex-direction: row;
+}
+.sub-container{
+    display:flex;
+    flex-direction:column;
+}
+.input-field{
+    height: 40px;
+    width:350px;
+    border: 1px solid #686D76;
+    border-radius: 10px;
+}
+.todo-heading{
+    color:#686D76;
+}
+.add-button{
+    margin-left:30px;
+    width:80px;
+    background-color: #19D3DA;
+    border: 1px solid #686D76;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.add-heading{
+    color:#686D76;
+    font-weight: 700;
+
+}
+.list{
+    list-style-type: none;
+   padding:30px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.list-item{
+    display:flex;
+    flex-direction: row;
+
+background-color:#686D76 ;
+margin-bottom:10px;
+padding:15px;
+color:#EEEEEE;
+font-size: 20px;
+border-radius: 5px;
+}
+.inner-container{
+    display:flex;
+    flex-direction: row;
+   
+    width: 100%;
+    
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.delete-icon{
+    color:#19D3DA;
+    
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+.checked {
+    text-decoration: line-through;
+}
